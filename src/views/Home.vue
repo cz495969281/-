@@ -2,17 +2,20 @@
   <div class='home'>
     <top-view></top-view>
     <sales-view></sales-view>
+    <bottom-view></bottom-view>
   </div>
 </template>
 
 <script>
 import TopView from '../components/TopView'
 import SalesView from '../components/SalesView'
+import BottomView from '../components/BottomView'
 export default {
   name: 'Home',
   components: {
     TopView,
-    SalesView
+    SalesView,
+    BottomView
   }
 }
 </script>
