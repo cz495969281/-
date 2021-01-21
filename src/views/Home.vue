@@ -3,6 +3,7 @@
     <top-view></top-view>
     <sales-view></sales-view>
     <bottom-view></bottom-view>
+    <map-view />
   </div>
 </template>
 
@@ -10,12 +11,15 @@
 import TopView from '../components/TopView'
 import SalesView from '../components/SalesView'
 import BottomView from '../components/BottomView'
+import MapView from '../components/MapView'
+
 export default {
   name: 'Home',
   components: {
     TopView,
     SalesView,
-    BottomView
+    BottomView,
+    MapView
   }
 }
 </script>
